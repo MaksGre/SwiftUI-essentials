@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>30773C38-4EA6-44C7-8F9B-189DDAC96A1D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>30773C38-4EA6-44C7-8F9B-189DDAC96A1D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9tLmdyZWJlbm96aGtvXC9pT1NcL1Rlc3RQcm9qZWN0c1wvU2NydW1kaW5nZXJcL1NjcnVtZGluZ2VyLnhjb2RlcHJvaiJ9</string>
+			<key>timeStartedRecording</key>
+			<real>701871585.11073101</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build for Previews Scrumdinger</string>
+			<key>uniqueIdentifier</key>
+			<string>30773C38-4EA6-44C7-8F9B-189DDAC96A1D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
