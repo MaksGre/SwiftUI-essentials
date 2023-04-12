@@ -19,6 +19,7 @@
 		80A7694E29D5B5DF003B64D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A7694D29D5B5DF003B64D9 /* Preview Assets.xcassets */; };
 		80FFA8DD29E691EC00D05F84 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FFA8DC29E691EC00D05F84 /* DetailEditView.swift */; };
 		80FFA8DF29E6CAAB00D05F84 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FFA8DE29E6CAAB00D05F84 /* ThemeView.swift */; };
+		80FFA8E129E6CCE400D05F84 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FFA8E029E6CCE400D05F84 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		80A7694D29D5B5DF003B64D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80FFA8DC29E691EC00D05F84 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		80FFA8DE29E6CAAB00D05F84 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		80FFA8E029E6CCE400D05F84 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				80A0618E29DD4DBB00CDC182 /* DetailView.swift */,
 				80FFA8DC29E691EC00D05F84 /* DetailEditView.swift */,
 				80FFA8DE29E6CAAB00D05F84 /* ThemeView.swift */,
+				80FFA8E029E6CCE400D05F84 /* ThemePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80FFA8E129E6CCE400D05F84 /* ThemePicker.swift in Sources */,
 				80A5E44929D6C61D0086C3D2 /* DailyScrum.swift in Sources */,
 				80A0618F29DD4DBB00CDC182 /* DetailView.swift in Sources */,
 				80FFA8DD29E691EC00D05F84 /* DetailEditView.swift in Sources */,
