@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@MainActor
 class ScrumStore: ObservableObject {
     @Published var scrums: [DailyScrum] = []
 
@@ -16,5 +17,16 @@ class ScrumStore: ObservableObject {
                                     appropriateFor: nil,
                                     create: false)
         .appendingPathComponent("scrums.data")
+    }
+
+    func load() async throws {
+        let task = Task<[DailyScrum], Error> {
+            let fileURL = try Self.fileURL()
+            guard let data = try? Data(contentsOf: fileURL) else {
+                return []
+            }
+            return try JSONDecoder().decode([DailyScrum].self, from: data)
+        }
+        scrums = try await task.value
     }
 }
