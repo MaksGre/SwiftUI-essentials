@@ -14,6 +14,14 @@ struct DailyScrum: Identifiable, Codable {
     var lengthInMinutes: Int
     var theme: Theme
     var history: [History] = []
+    var lengthInMinutesAsDouble: Double {
+        get {
+            Double(lengthInMinutes)
+        }
+        set {
+            lengthInMinutes = Int(newValue)
+        }
+    }
 
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
