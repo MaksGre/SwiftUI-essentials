@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		803C5C0029F23AFC00BBEA98 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C5BFF29F23AFC00BBEA98 /* ErrorWrapper.swift */; };
+		803C5C0229F23B9D00BBEA98 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C5C0129F23B9D00BBEA98 /* ErrorView.swift */; };
 		804F360829EEC5A900B1423F /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F360729EEC5A900B1423F /* MeetingFooterView.swift */; };
 		804F360A29EEC8C100B1423F /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F360929EEC8C100B1423F /* AVPlayer+Ding.swift */; };
 		804F360D29EECCA400B1423F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 804F360C29EEC8E800B1423F /* ding.wav */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		803C5BFF29F23AFC00BBEA98 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		803C5C0129F23B9D00BBEA98 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		804F360729EEC5A900B1423F /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		804F360929EEC8C100B1423F /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		804F360C29EEC8E800B1423F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				80FFA8E029E6CCE400D05F84 /* ThemePicker.swift */,
 				80FFA8DE29E6CAAB00D05F84 /* ThemeView.swift */,
 				80C9A66A29EFFDCF00EFB2A5 /* NewScrumSheet.swift */,
+				803C5C0129F23B9D00BBEA98 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				80FFA8E129E6CCE400D05F84 /* ThemePicker.swift in Sources */,
 				80A2C37129E840110005C011 /* ScrumProgressViewStyle.swift in Sources */,
 				804F360829EEC5A900B1423F /* MeetingFooterView.swift in Sources */,
+				803C5C0229F23B9D00BBEA98 /* ErrorView.swift in Sources */,
 				80D8BAEA29E971C5003E37DD /* ScrumTimer.swift in Sources */,
 				80A5E44929D6C61D0086C3D2 /* DailyScrum.swift in Sources */,
 				8096847129F11D7B00A97CA8 /* ScrumStore.swift in Sources */,
