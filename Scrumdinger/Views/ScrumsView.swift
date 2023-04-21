@@ -14,22 +14,22 @@ struct ScrumsView: View {
     let saveAction: ()->Void
 
     var body: some View {
-        List {
-            ForEach($scrums) { $scrum in
+        NavigationStack {
+            List($scrums) { $scrum in
                 NavigationLink(destination: DetailView(scrum: $scrum)) {
                     CardView(scrum: scrum)
                 }
                 .listRowBackground(scrum.theme.mainColor)
             }
-        }
-        .navigationTitle("Daily Scrums")
-        .toolbar {
-            Button(action: {
-                isPresentingNewScrumView = true
-            }) {
-                Image(systemName: "plus")
+            .navigationTitle("Daily Scrums")
+            .toolbar {
+                Button(action: {
+                    isPresentingNewScrumView = true
+                }) {
+                    Image(systemName: "plus")
+                }
+                .accessibilityLabel("New Scrum")
             }
-            .accessibilityLabel("New Scrum")
         }
         .sheet(isPresented: $isPresentingNewScrumView) {
             NewScrumSheet(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
@@ -42,8 +42,6 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            ScrumsView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
-        }
+        ScrumsView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
     }
 }

@@ -35,6 +35,11 @@ struct ScrumdingerApp: App {
             } content: { wrapper in
                 ErrorView(errorWrapper: wrapper)
             }
+            .sheet(item: $errorWrapper) {
+                store.scrums = DailyScrum.sampleData
+            } content: { wrapper in
+                ErrorView(errorWrapper: wrapper)
+            }
         }
     }
 }
