@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		803C5C0029F23AFC00BBEA98 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C5BFF29F23AFC00BBEA98 /* ErrorWrapper.swift */; };
 		804F360829EEC5A900B1423F /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F360729EEC5A900B1423F /* MeetingFooterView.swift */; };
 		804F360A29EEC8C100B1423F /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F360929EEC8C100B1423F /* AVPlayer+Ding.swift */; };
 		804F360D29EECCA400B1423F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 804F360C29EEC8E800B1423F /* ding.wav */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		803C5BFF29F23AFC00BBEA98 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		804F360729EEC5A900B1423F /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		804F360929EEC8C100B1423F /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		804F360C29EEC8E800B1423F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				804F360929EEC8C100B1423F /* AVPlayer+Ding.swift */,
 				80C9A67129F012D200EFB2A5 /* History.swift */,
 				8096847029F11D7B00A97CA8 /* ScrumStore.swift */,
+				803C5BFF29F23AFC00BBEA98 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				80A5E44929D6C61D0086C3D2 /* DailyScrum.swift in Sources */,
 				8096847129F11D7B00A97CA8 /* ScrumStore.swift in Sources */,
 				80A0618F29DD4DBB00CDC182 /* DetailView.swift in Sources */,
+				803C5C0029F23AFC00BBEA98 /* ErrorWrapper.swift in Sources */,
 				80A2C36F29E83CB20005C011 /* MeetingHeaderView.swift in Sources */,
 				80C9A66B29EFFDCF00EFB2A5 /* NewScrumSheet.swift in Sources */,
 				80A5E44D29D6FD0E0086C3D2 /* TrailingIconLabelStyle.swift in Sources */,
